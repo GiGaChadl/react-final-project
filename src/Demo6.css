@@ -1,0 +1,30 @@
+#container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: red;
+}
+table tbody tr:hover {
+    background-color: rgb(245, 99, 99);
+    cursor: pointer;
+}
+
+table thead {
+    background-color: blue;
+    color: white;
+}
+
